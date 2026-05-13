@@ -234,7 +234,7 @@ const ProjectCard = ({ project, onClick }: { project: Project, onClick: () => vo
     <motion.div 
       layoutId={`project-${project.id}`}
       onClick={onClick}
-      className="group relative cursor-pointer overflow-hidden bg-brand-surface border border-white/5 flex flex-col aspect-[4/5] md:aspect-[16/11] rounded-2xl"
+      className="group relative cursor-pointer overflow-hidden bg-brand-surface border border-white/5 flex flex-col aspect-auto md:aspect-[16/11] rounded-2xl"
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
@@ -248,7 +248,7 @@ const ProjectCard = ({ project, onClick }: { project: Project, onClick: () => vo
         <img 
           src={project.imageUrl} 
           alt={project.title} 
-          className="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
+          className="w-full h-auto md:h-full object-cover transition-all duration-700 group-hover:scale-105"
         />
       </div>
       

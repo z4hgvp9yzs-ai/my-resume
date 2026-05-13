@@ -144,6 +144,7 @@ const CREATIONS: Creation[] = [
 
 const Navbar = ({ onOpenAbout }: { onOpenAbout: () => void }) => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setIsScrolled(window.scrollY > 50);
@@ -152,24 +153,72 @@ const Navbar = ({ onOpenAbout }: { onOpenAbout: () => void }) => {
   }, []);
 
   return (
-    <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 px-6 md:px-12 py-6 flex justify-between items-center ${isScrolled ? 'bg-[#080808]/90 backdrop-blur-md py-4 border-b border-white/5' : 'bg-transparent'}`}>
-      <div className="flex items-center gap-4">
-        <div className="flex flex-col">
-          <span className="text-white font-black text-2xl tracking-tighter leading-none uppercase">YMH - DESIGN</span>
-          <span className="text-[9px] text-zinc-500 uppercase tracking-[0.3em] mt-1 font-medium">UI/UX 设计师 • AIGC 探索者</span>
+    <>
+      <nav className={`fixed top-0 left-0 w-full z-[60] transition-all duration-300 px-6 md:px-12 py-6 flex justify-between items-center ${isScrolled ? 'bg-[#080808]/90 backdrop-blur-md py-4 border-b border-white/5' : 'bg-transparent'}`}>
+        <div className="flex items-center gap-4">
+          <div className="flex flex-col">
+            <span className="text-white font-black text-2xl tracking-tighter leading-none uppercase">YMH - DESIGN</span>
+            <span className="text-[9px] text-zinc-500 uppercase tracking-[0.3em] mt-1 font-medium">UI/UX 设计师 • AIGC 探索者</span>
+          </div>
         </div>
-      </div>
-      <div className="hidden md:flex gap-10 items-center text-[10px] uppercase tracking-[0.2em] font-black text-white/40">
-        <a href="#about" className="hover:text-white transition-colors">工作经历</a>
-        <a href="#works" className="hover:text-white transition-colors">精选作品</a>
-        <a href="#other" className="hover:text-white transition-colors">其他创作</a>
-        <button onClick={onOpenAbout} className="px-6 py-2.5 bg-white text-black rounded-sm hover:bg-zinc-200 transition-all font-black uppercase snap-button">关于我</button>
-      </div>
-      <div className="md:hidden">
-        <div className="w-6 h-[1px] bg-white mb-1"></div>
-        <div className="w-6 h-[1px] bg-white"></div>
-      </div>
-    </nav>
+        <div className="hidden md:flex gap-10 items-center text-[10px] uppercase tracking-[0.2em] font-black text-white/40">
+          <a href="#about" className="hover:text-white transition-colors">工作经历</a>
+          <a href="#works" className="hover:text-white transition-colors">精选作品</a>
+          <a href="#other" className="hover:text-white transition-colors">其他创作</a>
+          <button onClick={onOpenAbout} className="px-6 py-2.5 bg-white text-black rounded-sm hover:bg-zinc-200 transition-all font-black uppercase snap-button">关于我</button>
+        </div>
+        <div 
+          className="md:hidden cursor-pointer p-2 relative z-[70]" 
+          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+        >
+          <div className={`w-6 h-[2px] bg-white transition-all duration-300 ${isMobileMenuOpen ? 'rotate-45 translate-y-[2px]' : 'mb-1.5'}`}></div>
+          <div className={`w-6 h-[2px] bg-white transition-all duration-300 ${isMobileMenuOpen ? '-rotate-45 -translate-y-[2px]' : ''}`}></div>
+        </div>
+      </nav>
+
+      {/* Mobile Menu Overlay */}
+      <AnimatePresence>
+        {isMobileMenuOpen && (
+          <motion.div 
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
+            className="fixed inset-0 z-[55] bg-black/95 backdrop-blur-xl flex flex-col items-center justify-center gap-8 md:hidden"
+          >
+            <a 
+              href="#about" 
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-white text-2xl font-black uppercase tracking-widest hover:text-zinc-400 transition-colors"
+            >
+              工作经历
+            </a>
+            <a 
+              href="#works" 
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-white text-2xl font-black uppercase tracking-widest hover:text-zinc-400 transition-colors"
+            >
+              精选作品
+            </a>
+            <a 
+              href="#other" 
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="text-white text-2xl font-black uppercase tracking-widest hover:text-zinc-400 transition-colors"
+            >
+              其他创作
+            </a>
+            <button 
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+                onOpenAbout();
+              }} 
+              className="mt-8 px-10 py-4 bg-white text-black rounded-sm hover:bg-zinc-200 transition-all font-black uppercase text-xl"
+            >
+              关于我
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </>
   );
 };
 

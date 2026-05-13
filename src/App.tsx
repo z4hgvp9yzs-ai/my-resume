@@ -132,7 +132,7 @@ const CREATIONS: Creation[] = [
   { title: '运营图系列', tags: ['Daily', 'Operations'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E6%8A%96%E9%9F%B3%E5%88%9B%E4%BD%9C%E5%AD%A3-%E8%8A%B1%E8%90%BC%E6%A5%BC%E8%BF%90%E8%90%A5%E5%9B%BE.png?v=2' },
   { title: '抽象几何', tags: ['C4D', 'Redshift'], imageUrl: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=2070&auto=format&fit=crop' },
   { title: 'UI 组件库 V1.0', tags: ['Figma', 'System'], imageUrl: 'https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?q=80&w=2070&auto=format&fit=crop' },
-  { title: '赛博朋克城市景观', tags: ['AIGC', 'Future'], imageUrl: 'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=2070&auto=format&fit=crop' },
+  { title: '赛博朋克城市景观', tags: ['AIGC', 'Future'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E5%B1%B1%E6%B2%B3%E4%B9%8B%E5%BF%97-%E5%AE%A3%E4%BC%A01.png?v=2' },
   { title: '有机生长', tags: ['3D', 'Nature'], imageUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1964&auto=format&fit=crop' },
   { title: '极简室内', tags: ['Architecture', 'POV'], imageUrl: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1974&auto=format&fit=crop' },
   { title: '空灵流体', tags: ['Generative', 'Fluid'], imageUrl: 'https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1974&auto=format&fit=crop' },

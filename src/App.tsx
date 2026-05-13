@@ -134,7 +134,7 @@ const CREATIONS: Creation[] = [
   { title: '山河之志-过场宣传图2', tags: ['Figma', 'System'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E5%B1%B1%E6%B2%B3%E4%B9%8B%E5%BF%97-%E5%AE%A3%E4%BC%A02.jpg?v=2' },
   { title: '山河之志-过场宣传图', tags: ['AIGC', 'Future'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E5%B1%B1%E6%B2%B3%E4%B9%8B%E5%BF%97-%E5%AE%A3%E4%BC%A01.jpg?v=2' },
   { title: '有机生长', tags: ['3D', 'Nature'], imageUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1964&auto=format&fit=crop' },
-  { title: '极简室内', tags: ['Architecture', 'POV'], imageUrl: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1974&auto=format&fit=crop' },
+  { title: '极简室内', tags: ['Architecture', 'POV'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E4%BA%8C%E6%AC%A1%E5%85%83-%E8%A7%92%E8%89%B2%E7%95%8C%E9%9D%A2.png?v=2' },
   { title: '空灵流体', tags: ['Generative', 'Fluid'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E4%B9%98%E6%A2%A6%E6%B1%9F%E6%B9%96%E6%98%8E%E4%BF%A1%E7%89%87%E6%AD%A3%E9%9D%A2.jpg?v=2' },
   { title: '工业核心', tags: ['Metal', 'Structure'], imageUrl: 'https://images.unsplash.com/photo-1599427303058-f1454589d891?q=80&w=2070&auto=format&fit=crop' },
 ];

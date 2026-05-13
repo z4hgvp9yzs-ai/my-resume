@@ -52,8 +52,7 @@ const PROJECTS: Project[] = [
       challenge: '在保持高密度信息架构的同时，简化企业级导航。',
       solution: '实现模块化组件库和数据优先的视觉策略，将信息可读性置于首位。',
       images: [
-        'https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop',
-        'https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=2064&auto=format&fit=crop'
+        'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E6%99%BA%E6%85%A7%E7%89%A9%E4%B8%9A%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0%20UIUX%20%E4%BA%A4%E4%BA%92%E6%96%87%E6%A1%A3.jpg?v=2'
       ]
     }
   },

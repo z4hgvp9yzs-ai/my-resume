@@ -105,7 +105,8 @@ const PROJECTS: Project[] = [
       challenge: '在保持一致品牌识别度的同时适应不同的屏幕尺寸和操作模式。',
       solution: '采用响应式设计系统和自适应组件。',
       images: [
-        'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E5%89%91%E7%BD%913%E9%A1%B9%E7%9B%AE.jpg?v=2'
+        'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E5%89%91%E7%BD%913%E9%A1%B9%E7%9B%AE.jpg?v=2',
+        'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E5%B1%B1%E6%B2%B3%E4%B9%8B%E5%BF%97ui.jpg?v=2'
       ]
     }
   },

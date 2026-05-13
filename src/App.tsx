@@ -131,8 +131,8 @@ const PROJECTS: Project[] = [
 const CREATIONS: Creation[] = [
   { title: '运营图系列', tags: ['Daily', 'Operations'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E6%8A%96%E9%9F%B3%E5%88%9B%E4%BD%9C%E5%AD%A3-%E8%8A%B1%E8%90%BC%E6%A5%BC%E8%BF%90%E8%90%A5%E5%9B%BE.png?v=2' },
   { title: '抽象几何', tags: ['C4D', 'Redshift'], imageUrl: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?q=80&w=2070&auto=format&fit=crop' },
-  { title: 'UI 组件库 V1.0', tags: ['Figma', 'System'], imageUrl: 'https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?q=80&w=2070&auto=format&fit=crop' },
-  { title: '赛博朋克城市景观', tags: ['AIGC', 'Future'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E5%B1%B1%E6%B2%B3%E4%B9%8B%E5%BF%97-%E5%AE%A3%E4%BC%A01.png?v=2' },
+  { title: '山河之志-过场宣传图2', tags: ['Figma', 'System'], imageUrl: 'https://images.unsplash.com/photo-1586717791821-3f44a563eb4c?q=80&w=2070&auto=format&fit=crop' },
+  { title: '山河之志-过场宣传图', tags: ['AIGC', 'Future'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E5%B1%B1%E6%B2%B3%E4%B9%8B%E5%BF%97-%E5%AE%A3%E4%BC%A01.png?v=2' },
   { title: '有机生长', tags: ['3D', 'Nature'], imageUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1964&auto=format&fit=crop' },
   { title: '极简室内', tags: ['Architecture', 'POV'], imageUrl: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1974&auto=format&fit=crop' },
   { title: '空灵流体', tags: ['Generative', 'Fluid'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E5%B1%B1%E6%B2%B3%E4%B9%8B%E5%BF%97-%E5%AE%A3%E4%BC%A02.png?v=2' },
@@ -311,20 +311,20 @@ const Lightbox = ({ items, currentIndex, onClose, onPrev, onNext }: { items: Cre
           <ChevronLeft className="w-6 h-6" />
         </button>
 
-        <div className="relative max-w-5xl max-h-[85vh] overflow-hidden flex flex-col items-center">
+        <div className="relative w-full max-w-5xl max-h-[85vh] overflow-y-auto no-scrollbar flex flex-col items-center">
           <AnimatePresence mode="wait">
             <motion.img 
               key={currentIndex}
-              initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
-              exit={{ opacity: 0, x: -20 }}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
               src={currentItem.imageUrl} 
               alt={currentItem.title}
-              className="max-w-full max-h-[75vh] object-contain rounded-lg shadow-2xl"
+              className="w-full h-auto rounded-lg shadow-2xl"
             />
           </AnimatePresence>
           
-          <div className="mt-8 text-center">
+          <div className="mt-8 mb-8 shrink-0 text-center">
             <h3 className="text-white text-2xl font-black uppercase tracking-tight mb-2">{currentItem.title}</h3>
             <div className="flex justify-center gap-3">
               {currentItem.tags.map(tag => (

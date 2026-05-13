@@ -118,7 +118,7 @@ const PROJECTS: Project[] = [
     category: 'PC Launcher UI/UX',
     year: '2023-2024',
     description: '通过视觉重构和交互升级，为玩家打造更沉浸、高效的游戏启动与资产管理体验。',
-    imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%90%AF%E5%8A%A8%E5%99%A8%E8%BF%AD%E4%BB%A3%20UIUX%20%E4%BA%A4%E4%BA%92%E6%96%87%E6%A1%A3_%E5%B0%81%E9%9D%A2.png?v=2',
+    imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E5%AE%A2%E6%88%B7%E7%AB%AF%E5%90%AF%E5%8A%A8%E5%99%A8%E8%BF%AD%E4%BB%A3%20UIUX%20%E4%BA%A4%E4%BA%92%E6%96%87%E6%A1%A3_%E5%B0%81%E9%9D%A2.jpg?v=2',
     details: {
       role: '主导 UI/UX 设计师',
       challenge: '旧版启动器界面陈旧、功能堆砌，导致玩家查找游戏资产和活动信息的效率低下。',

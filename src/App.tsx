@@ -45,7 +45,7 @@ const PROJECTS: Project[] = [
     title: '企业官网设计',
     category: 'TOB 网页',
     year: '2025-2026',
-    description: '为 B2B 平台提供全面的视觉系统，侧重于信息清晰度、专业信任感以及复杂数据可视化。',
+    description: 'B端项目是在2025年期间积累下的经验，设计作品涵盖交互/体验/视觉/产品逻辑等多方面分析，UI/UX展示',
     imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E6%99%BA%E6%85%A7%E7%89%A9%E4%B8%9A%E7%AE%A1%E7%90%86%E5%B9%B3%E5%8F%B0%20UIUX%20%E4%BA%A4%E4%BA%92%E6%96%87%E6%A1%A3_%E4%B8%BB%E9%A1%B5.png?v=2',
     details: {
       role: '主导 UI/UX 设计师',

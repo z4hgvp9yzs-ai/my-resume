@@ -139,7 +139,7 @@ const CREATIONS: Creation[] = [
   { title: '有机生长', tags: ['3D', 'Nature'], imageUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1964&auto=format&fit=crop' },
   { title: '二次元-主角界面', tags: ['Architecture', 'POV'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E4%BA%8C%E6%AC%A1%E5%85%83-%E8%A7%92%E8%89%B2%E7%95%8C%E9%9D%A2.png?v=2' },
   { title: '水彩风格-明信片正面(板绘)', tags: ['Generative', 'Fluid'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E4%B9%98%E6%A2%A6%E6%B1%9F%E6%B9%96%E6%98%8E%E4%BF%A1%E7%89%87%E6%AD%A3%E9%9D%A2.jpg?v=2' },
-  { title: '工业核心', tags: ['Metal', 'Structure'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E7%90%97%E7%81%B5%E7%BA%AA%E5%85%83-%E6%98%93%E6%8B%89%E5%AE%9D%E5%9B%BE.jpg?v=2' },
+  { title: '工业核心', tags: ['Metal', 'Structure'], imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/DX-wl.jpg?v=2' },
 ];
 
 

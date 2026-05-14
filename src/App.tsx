@@ -82,7 +82,7 @@ const PROJECTS: Project[] = [
     category: 'APP UI/UX',
     year: '2021-2024',
     description: '本项目执行于2021-2024，随着剑网 3 玩家需求的持续升级，推栏旧版产品逐渐暴露出信息层级混乱、场景割裂、体验不统一、留存能力不足四大核心体验问题，已无法适配玩家的使用诉求。\n\n我从产品层和业务侧对产品进行了梳理，进而推导出视觉解决方案，进行竞品分析市场数据调研方面，输出一系列主界面设计稿，并推动顺利上线部分界面。\n\n产品思维/运营增长思维/视觉/交互/设计落地/插画/平面设计/图标设计',
-    imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/GCA%E7%A4%BE%E4%BA%A4%E7%A4%BE%E5%8C%BA-%E6%8E%A8%E6%A0%8F%20UIUX%20%E4%BA%A4%E4%BA%92%E6%96%87%E6%A1%A3_%E4%B8%BB%E9%A1%B5.png?v=2',
+    imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E6%B8%B8%E6%88%8F%E7%95%8C%E9%9D%A2%E9%A6%96%E9%A1%B5.jpg?v=2',
     details: {
       role: '资深 UI/UX 设计师',
       challenge: '优化高流量移动交互，实现低延迟的流畅体验。',

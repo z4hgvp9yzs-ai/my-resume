@@ -447,8 +447,8 @@ export default function App() {
       {/* Fixed Video Background */}
       <div className="fixed inset-0 z-0 w-full h-full pointer-events-none opacity-50 overflow-hidden bg-black">
         <iframe
-          src="https://player.mux.com/wTC2uAyHw021wAY9EMaD9n00vvHDZTjxvmz025y02X9v01GE?autoplay=true&loop=true&muted=true&controls=false"
-          className="absolute top-1/2 left-1/2 w-[150vw] h-[150vh] -translate-x-1/2 -translate-y-1/2"
+          src="https://player.mux.com/wTC2uAyHw021wAY9EMaD9n00vvHDZTjxvmz025y02X9v01GE?autoplay=true&loop=true&muted=true&controls=false&playsinline=true"
+          className="absolute top-1/2 left-1/2 w-[300vw] h-[300vh] md:w-[150vw] md:h-[150vh] -translate-x-1/2 -translate-y-1/2"
           style={{ border: 'none' }}
           allow="autoplay; fullscreen"
         />

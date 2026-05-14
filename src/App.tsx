@@ -70,7 +70,8 @@ const PROJECTS: Project[] = [
       solution: '开发了一套专有的提示词链接工作流，确保不同媒体输出间的风格统一。',
       images: [
         'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/AI%E6%8F%92%E5%9B%BE1.png?v=2',
-        'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/AIGC%20%E5%BA%94%E7%94%A8-%E9%83%A8%E5%88%86.png?v=2'
+        'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/AIGC%20%E5%BA%94%E7%94%A8-%E9%83%A8%E5%88%86.png?v=2',
+        'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E5%BD%A9%E8%99%B9%E5%B0%8F%E9%A9%AC-ip%E8%A7%92%E8%89%B2.jpg?v=2'
       ]
     }
   },

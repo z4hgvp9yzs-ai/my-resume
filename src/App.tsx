@@ -309,11 +309,24 @@ const ProjectModal = ({ project, onClose }: { project: Project, onClose: () => v
             </div>
             
             <div className="space-y-8 overflow-hidden rounded-2xl">
-              {project.details.images.map((img, i) => (
-                <div key={i} className="w-full relative overflow-hidden" style={{ margin: '-10px -2px 0 -2px', width: 'calc(100% + 4px)' }}>
-                  <img src={img} className="w-full h-auto shadow-2xl" alt="Design Detail" />
-                </div>
-              ))}
+              {project.details.images.map((img, i) => {
+                // 单独为《瑭灵纪元》图片做适配：原比例居中显示，不强制拉伸满宽，不裁剪
+                const isSpecialImage = img.includes('%E7%90%97%E7%81%B5%E7%BA%AA%E5%85%83.jpg');
+                
+                if (isSpecialImage) {
+                  return (
+                    <div key={i} className="w-full relative flex justify-center py-4 bg-transparent">
+                      <img src={img} className="max-w-full h-auto shadow-2xl rounded-xl" style={{ objectFit: 'contain' }} alt="Design Detail" />
+                    </div>
+                  );
+                }
+
+                return (
+                  <div key={i} className="w-full relative overflow-hidden" style={{ margin: '-10px -2px 0 -2px', width: 'calc(100% + 4px)' }}>
+                    <img src={img} className="w-full h-auto shadow-2xl" alt="Design Detail" />
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>

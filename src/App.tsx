@@ -99,7 +99,7 @@ const PROJECTS: Project[] = [
     category: 'PC DX UI/UX',
     year: '2018-2025',
     description: 'P1~P2 : MMO类型 - 剑网3项目\nP3 ：SLG类型 - 山河之志\nP4：MMO类型 - 凡人修仙传\nP5：休闲PX - 瑭灵纪元',
-    imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E6%B8%B8%E6%88%8F%E7%95%8C%E9%9D%A2%E9%A6%96%E9%A1%B5.jpg?v=3',
+    imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/%E6%B8%B8%E6%88%8F%E7%95%8C%E9%9D%A2%E9%A6%96%E9%A1%B5.jpg?v=4',
     details: {
       role: '视觉设计师',
       challenge: '在保持一致品牌识别度的同时适应不同的屏幕尺寸和操作模式。',

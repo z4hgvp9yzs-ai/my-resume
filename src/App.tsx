@@ -62,7 +62,7 @@ const PROJECTS: Project[] = [
     title: 'AIGC 视觉设计',
     category: 'AIGC',
     year: '2024-2025',
-    description: '在生成式艺术和商业视觉系统中探索人工智能的边界。',
+    description: 'AIGC正快速影响着设计行业，在前期的创意层面能够带来很多帮助，能够提高设计师的工作效率提升业务转化。涵盖海报/KV/IP衍生/图标 等探索',
     imageUrl: 'https://raw.githubusercontent.com/z4hgvp9yzs-ai/my-image-jianli/main/AI%E6%8F%92%E5%9B%BE-%E9%A6%96%E9%A1%B5.png?v=2',
     details: {
       role: 'AIGC 探索者 / 提示词工程师',

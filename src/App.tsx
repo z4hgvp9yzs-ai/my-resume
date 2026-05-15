@@ -385,7 +385,7 @@ const Lightbox = ({ items, currentIndex, onClose, onPrev, onNext }: { items: Cre
               exit={{ opacity: 0, y: -20 }}
               src={currentItem.imageUrl} 
               alt={currentItem.title}
-              className="w-full h-auto rounded-lg shadow-2xl"
+              className={`w-full rounded-lg shadow-2xl ${currentItem.imageUrl.includes('.gif') ? 'max-w-max h-auto object-contain' : 'h-auto'}`}
             />
           </AnimatePresence>
           
